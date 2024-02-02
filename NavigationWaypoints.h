@@ -8,6 +8,8 @@ class NavigationWaypoint
 {
   public:
     const char*  _label;
+    const char* _m5label;
+
     double _lat;
     double _long;
 
@@ -22,7 +24,7 @@ class NavigationWaypoint
     }
 };
 
-#define WAYPOINTS_COUNT 113
+#define WAYPOINTS_COUNT 96
 
 class WraysburyWaypoints
 {
