@@ -24,7 +24,7 @@ class NavigationWaypoint
     {
     }
 
-    NavigationWaypoint(const char*  label, double latitude, double longitude) : _label(label), _m5label(nullptr), _lat(latitude), _long(longitude)
+    NavigationWaypoint(const char*  label, double latitude, double longitude) : _label(label), _m5label(label), _lat(latitude), _long(longitude)
     {
     }
 };
