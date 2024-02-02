@@ -62,7 +62,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [55] = { ._label = "50cN Swim Through - crates 6m", ._m5label = "50cN\nSwim\nThrough\ncrates\n6m", ._lat = 51.4592045, ._long = -0.545912625},
   [56] = { ._label = "51B Orca Van 5.5m", ._m5label = "51B\n\nOrca\nVan\n\n5.5m", ._lat = 51.4591431428571, ._long = -0.545936857142857},
   [57] = { ._label = "X01 Dinghy Boat", ._m5label = "X01\nDinghy\nBoat", ._lat = 51.4601285, ._long = -0.5488505},
-  [58] = { ._label = "X02 Quarry Machine in Reeds", ._m5label = "X02\nQuarry\nMachine\Reeds", ._lat = 51.460434, ._long = -0.548921},
+  [58] = { ._label = "X02 Quarry Machine in Reeds", ._m5label = "X02\nQuarry\nMachine\nReeds", ._lat = 51.460434, ._long = -0.548921},
   [59] = { ._label = "X03 Metal Grated Box", ._m5label = "X03\nMetal\nGrated\nBox", ._lat = 51.4599582857143, ._long = -0.547648571428571},
   [60] = { ._label = "X04 4 crates in a line", ._m5label = "X04\n4 x\nCrates\nLine", ._lat = 51.4599018571429, ._long = -0.547141285714286},
   [61] = { ._label = "X05 Lone crate", ._m5label = "X05\nLone\nCrate", ._lat = 51.4598467777778, ._long = -0.547212666666667},
