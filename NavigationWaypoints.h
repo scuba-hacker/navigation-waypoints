@@ -11,8 +11,8 @@ class NavigationWaypoint
     const char* _label;
     const char* _m5label;
 
-    const double _lat;
-    const double _long;
+    double _lat;
+    double _long;
 
     NavigationWaypoint()
     {
