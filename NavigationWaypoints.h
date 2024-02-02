@@ -20,7 +20,11 @@ class NavigationWaypoint
       _lat = _long = 0.0;
     }
 
-    NavigationWaypoint(const char*  label, const char* _m5label, double latitude, double longitude) : _label(label), _lat(latitude), _long(longitude)
+    NavigationWaypoint(const char*  label, const char* m5label, double latitude, double longitude) : _label(label), _m5label(m5label), _lat(latitude), _long(longitude)
+    {
+    }
+
+    NavigationWaypoint(const char*  label, double latitude, double longitude) : _label(label), _m5label(nullptr), _lat(latitude), _long(longitude)
     {
     }
 };
@@ -35,3 +39,4 @@ class WraysburyWaypoints
 };
 
 #endif
+
