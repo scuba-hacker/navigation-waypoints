@@ -2,6 +2,29 @@
 
 const uint8_t WraysburyWaypoints::getWaypointsCount() { return WAYPOINTS_COUNT; }
 
+const char* featureCategoryToString(eWaypointCategory i)
+{
+  switch (i)
+  {
+    case BLUE_BUOY:
+      return "BLUE BUOY";
+    case NO_BUOY:
+      return "NO BUOY";
+    case PLATFORM:
+      return "PLATFORM";
+    case CONTAINER:
+      return "CONTAINER";
+    case ORANGE_BUOY:
+      return "ORANGE BUOY";
+    case JETTY:
+      return "JETTY";
+    case UNMARKED:
+      return "MYSTERY";
+    default:
+      return "INVALID";
+  }; 
+}
+
 const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoints = 
 {{
   [0] =  { ._label = "01N Canoe", ._m5label = "01N\nCanoe", ._cat=NO_BUOY, ._lat = 51.4620416774194, ._long = -0.548974709677419},

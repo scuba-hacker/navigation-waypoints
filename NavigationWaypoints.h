@@ -16,11 +16,11 @@ enum eWaypointCategory
   UNMARKED
 };
 
+const char* featureCategoryToString(eWaypointCategory i);
+
 class NavigationWaypoint
 {
   public:
-
-
     const char* _label;
     const char* _m5label;
     eWaypointCategory _cat;
