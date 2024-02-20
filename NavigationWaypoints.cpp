@@ -1,7 +1,5 @@
 #include "NavigationWaypoints.h"
 
-const uint8_t WraysburyWaypoints::getWaypointsCount() { return WAYPOINTS_COUNT; }
-
 const char* featureCategoryToString(eWaypointCategory i)
 {
   switch (i)
@@ -35,6 +33,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [5] =  { ._label = "06aN Caves Centre", ._m5label = "06aN\nCaves\nCentre", ._cat=NO_BUOY, ._lat = 51.460947625, ._long = -0.54878325},
   [6] =  { ._label = "06bN Lion Entrance @ Caves", ._m5label = "06bN\nCaves\nLion\nEntrance", ._cat=UNMARKED,._lat = 51.460817, ._long = -0.548734},
   [7] =  { ._label = "06cN Red Isis Bike @ Caves", ._m5label = "06cN\nRed\nIsis\nBike", ._cat=UNMARKED,._lat = 51.460898, ._long = -0.548701333},
+  
   [8] =  { ._label = "06dN Blue Raleigh Bike @ Caves", ._m5label = "06dN\nBlue\nRaleigh\nBike", ._cat=UNMARKED,._lat = 51.4608584444444, ._long = -0.548736333333333},
   [9] =  { ._label = "06eN Cave PC Laptop", ._m5label = "06eN\nCave\nPC\nLaptop", ._cat=UNMARKED, ._lat = 51.460936875, ._long = -0.548774875},
   [10] = { ._label = "07P Cargo 2.5m", ._m5label = "07P\nCargo\n2.5m", ._cat=CONTAINER, ._lat = 51.460014, ._long = -0.548735},
@@ -127,7 +126,5 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [94] = { ._label = "SS7 Sub S", ._m5label = "SS7\nSub S", ._cat=UNMARKED, ._lat = 51.4608669, ._long = -0.5491586},
   [95] = { ._label = "SS8 Sub SW", ._m5label = "SS8\nSub SW", ._cat=UNMARKED, ._lat = 51.4608861, ._long = -0.5492377},
 
-}
-};
-
+}};
 

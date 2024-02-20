@@ -23,10 +23,10 @@ class NavigationWaypoint
   public:
     const char* _label;
     const char* _m5label;
-    eWaypointCategory _cat;
+    const eWaypointCategory _cat;
 
-    double _lat;
-    double _long;
+    const double _lat;
+    const double _long;
 
     NavigationWaypoint() : _label(nullptr), _m5label(nullptr), _cat(UNMARKED),_lat(0.0),_long(0.0) 
     {
@@ -47,7 +47,7 @@ class WraysburyWaypoints
 {
   public:
     static const std::array<NavigationWaypoint,WAYPOINTS_COUNT> waypoints;
-    static const uint8_t getWaypointsCount();
+    static const uint8_t getWaypointsCount() { return WAYPOINTS_COUNT; }
 };
 
 #endif
