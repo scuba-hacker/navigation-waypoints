@@ -104,17 +104,17 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [75] = { ._label = "X19 Half Buried Bike", ._m5label = "X19\nHalf\nBuried\nBike", ._cat=UNMARKED, ._lat = 51.4600594210526, ._long = -0.547575473684211},
   
   [76] = { ._label = "X20 La Mouette Boat", ._m5label = "X21\nLa\nMouette\nBoat", ._cat=UNMARKED, ._lat = 51.460740, ._long = -0.547713},
-  [77] = { ._label = "X21 Memorial Stone - Kit 7.5m", ._m5label = "X22\nMem\nStone\nKit\n7.5m", ._cat=UNMARKED, ._lat = 51.460993, ._long = -0.548006},
+  [77] = { ._label = "X21 Memorial Stone - Kit 7.5m", ._m5label = "X22\nMem\nStone\nKit\n7.5m", ._cat=UNMARKED, ._lat = 51.460993, ._long = -0.548006}, // Near die hard taxi
   [78] = { ._label = "X22 Fruit Machine 5.5m", ._m5label = "X23\nFruit\nMach\n5.5m", ._cat=UNMARKED, ._lat = 51.459353, ._long = -0.546939},
 
-  [79] = { ._label = "X23 10:39 10-02 7m?", ._m5label = "X22\n10:39?\n10-02\n7m", ._cat=UNKNOWN, ._lat = 51.459239, ._long = -0.545922},
-  [80] = { ._label = "X24 10:45 10-02 7m?", ._m5label = "X23\n10:45?\n10-02\n7m", ._cat=UNKNOWN, ._lat = 51.461249, ._long = -0.548688},
-  [81] = { ._label = "X25 12:10 10-02 6m?", ._m5label = "X24\n12:10?\n10-02\n6m", ._cat=UNKNOWN, ._lat = 51.459239, ._long = -0.545922},
-  [82] = { ._label = "X26 12:23 10-02 6m?", ._m5label = "X25\n12:23?\n10-02\n6m", ._cat=UNKNOWN, ._lat = 51.459784, ._long =-0.546551},
-  [83] = { ._label = "X27 12:14 23-02 6m?", ._m5label = "X26\n12:14\n23-02\n6m", ._cat=UNKNOWN, ._lat = 51.460028, ._long =-0.548299},
-  [84] = { ._label = "X28 18:15 02-04 6m?", ._m5label = "X27\18:15?\n02-04\n6m", ._cat=UNKNOWN, ._lat = 51.460744, ._long = -0.547712},
-  [85] = { ._label = "X29 18:20 02-04 7m?", ._m5label = "X28\18:20?\n02-04\7m", ._cat=UNKNOWN, ._lat = 51.460385, ._long = -0.547427},
-  [86] = { ._label = "X30 09:56 15-06 7m?", ._m5label = "X29\09:56?\n15-06\7m", ._cat=UNKNOWN, ._lat = 51.460730, ._long = -0.547700},
+  [79] = { ._label = "X23 10:39 10-02 7m?", ._m5label = "X22\n10:39?\n10-02\n7m", ._cat=UNKNOWN, ._lat = 51.461205, ._long = -0.548843}, // ????? Near pipes crates end
+  [80] = { ._label = "X24 10:45 10-02 7m?", ._m5label = "X23\n10:45?\n10-02\n7m", ._cat=UNKNOWN, ._lat = 51.461249, ._long = -0.548688}, // near commer van
+  [81] = { ._label = "X25 12:10 10-02 6m?", ._m5label = "X24\n12:10?\n10-02\n6m", ._cat=UNKNOWN, ._lat = 51.459239, ._long = -0.545922}, // 	??
+  [82] = { ._label = "X26 12:23 10-02 6m?", ._m5label = "X25\n12:23?\n10-02\n6m", ._cat=UNKNOWN, ._lat = 51.459784, ._long =-0.546550}, // Near Plane
+  [83] = { ._label = "X27 12:14 23-02 6m?", ._m5label = "X26\n12:14\n23-02\n6m", ._cat=UNKNOWN, ._lat = 51.460028, ._long =-0.548299}, // right next to Cafe Jetty
+  [84] = { ._label = "X28 18:15 02-04 6m?", ._m5label = "X27\18:15?\n02-04\n6m", ._cat=UNKNOWN, ._lat = 51.460744, ._long = -0.547712}, // Mouette Boat
+  [85] = { ._label = "X29 18:20 02-04 7m?", ._m5label = "X28\18:20?\n02-04\7m", ._cat=UNKNOWN, ._lat = 51.460385, ._long = -0.547427}, // near to wreck site
+  [86] = { ._label = "X30 09:56 15-06 7m?", ._m5label = "X29\09:56?\n15-06\7m", ._cat=UNKNOWN, ._lat = 51.460730, ._long = -0.547700},  // this is la Mouette boat
 
   [87] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
   [88] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
