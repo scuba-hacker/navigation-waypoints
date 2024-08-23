@@ -13,7 +13,8 @@ enum eWaypointCategory
   CONTAINER,
   ORANGE_BUOY,
   JETTY,
-  UNMARKED
+  UNMARKED,
+  UNKNOWN
 };
 
 const char* featureCategoryToString(eWaypointCategory i);
@@ -41,7 +42,7 @@ class NavigationWaypoint
     }
 };
 
-#define WAYPOINTS_COUNT 86
+#define WAYPOINTS_COUNT 89
 
 class WraysburyWaypoints
 {
