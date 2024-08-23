@@ -18,6 +18,8 @@ const char* featureCategoryToString(eWaypointCategory i)
       return "JETTY";
     case UNMARKED:
       return "MYSTERY";
+    case UNKNOWN:
+      return "UNKNOWN";
     default:
       return "INVALID";
   }; 
