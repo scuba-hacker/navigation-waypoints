@@ -103,7 +103,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [74] = { ._label = "X18 Half Buried Solo Boat", ._m5label = "X18\nHalf\nBuried\nSolo\nBoat", ._cat=UNMARKED, ._lat = 51.4596635, ._long = -0.54706025},
   [75] = { ._label = "X19 Half Buried Bike", ._m5label = "X19\nHalf\nBuried\nBike", ._cat=UNMARKED, ._lat = 51.4600594210526, ._long = -0.547575473684211},
   
-  [76] = { ._label = "X21 La Mouette Boat", ._m5label = "X21\La\nMouette\nBoat", ._cat=UNMARKED, ._lat = 51.460740, ._long = -0.547713},
+  [76] = { ._label = "X21 La Mouette Boat", ._m5label = "X21\nLa\nMouette\nBoat", ._cat=UNMARKED, ._lat = 51.460740, ._long = -0.547713},
   [77] = { ._label = "X22 Memorial Stone - Kit 7.5m", ._m5label = "X22\nMem\nStone\nKit\n7.5m", ._cat=UNMARKED, ._lat = 51.460993, ._long = -0.548006},
   [78] = { ._label = "X23 Fruit Machine 5.5m", ._m5label = "X23\nFruit\nMach\n5.5m", ._cat=UNMARKED, ._lat = 51.459353, ._long = -0.546939},
 
