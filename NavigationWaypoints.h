@@ -42,7 +42,7 @@ class NavigationWaypoint
     }
 };
 
-#define WAYPOINTS_COUNT 91
+#define WAYPOINTS_COUNT 86
 
 class WraysburyWaypoints
 {
