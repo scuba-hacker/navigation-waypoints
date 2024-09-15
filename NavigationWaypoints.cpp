@@ -32,7 +32,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [2] =  { ._label = "03N Scimitar Car 5.5m",  ._m5label = "03N\nScimitar\nCar\n5.5m", ._cat=NO_BUOY, ._lat = 51.460347, ._long = -0.5489195},
   [3] =  { ._label = "04N Spitfire Car 6m", ._m5label = "04N\nSpit\n  fire\nCar\n6m", ._cat=NO_BUOY, ._lat = 51.4601028571429, ._long = -0.54883835},
   [4] =  { ._label = "05N Lightning Boat 5.5m", ._m5label = "05N\nLight\n  ning\nBoat\n5.5m", ._cat=NO_BUOY, ._lat = 51.4605855, ._long = -0.548901666666667},
-  [5] =  { ._label = "06aN Caves Centre", ._m5label = "06aN\nCaves\nCentre", ._cat=NO_BUOY, ._lat = 51.460947625, ._long = -0.54878325},
+  [5] =  { ._label = "06aN Caves Centre", ._m5label = "06aN\nCaves\nCentre", ._cat=NO_BUOY, ._lat = 51.4608746, ._long = -0.5487572},  // was: ._lat = 51.460947625, ._long = -0.54878325
   [6] =  { ._label = "06bN Lion Entrance @ Caves", ._m5label = "06bN\nCaves\nLion\nEntrance", ._cat=UNMARKED,._lat = 51.460817, ._long = -0.548734},
   [7] =  { ._label = "06cN Red Isis Bike @ Caves", ._m5label = "06cN\nRed\nIsis\nBike", ._cat=UNMARKED,._lat = 51.460898, ._long = -0.548701333},
   [8] =  { ._label = "06dN Blue Raleigh Bike @ Caves", ._m5label = "06dN\nBlue\nRaleigh\nBike", ._cat=UNMARKED,._lat = 51.4608584444444, ._long = -0.548736333333333},
