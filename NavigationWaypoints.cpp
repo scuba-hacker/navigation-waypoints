@@ -109,9 +109,10 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [79] = { ._label = "X24 ? near plane 6m", ._m5label = "X24?\nnear\nplanen6m", ._cat=UNKNOWN, ._lat = 51.459784, ._long =-0.546550}, // Near Plane
   [80] = { ._label = "X25 Cotton Reel 3m", ._m5label = "X25\nCotton\nReel\n3m", ._cat=UNMARKED, ._lat = 51.4623163, ._long = -0.5494161 }, // near canoe
   [81] = { ._label = "X26 Dumpy Cylinder 6m", ._m5label = "X26\nDumpy\nCylinder\n6m",._cat=UNMARKED, ._lat = 51.4600631, ._long = -0.5480722},
-  [82] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
-  [83] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
-  [84] = { ._label = "Z03 Old Jetty", ._m5label = "Z03\n\nOld\nJetty", ._cat=JETTY, ._lat = 51.459166, ._long = -0.546999333333333},
+  [82] = { ._label = "X27 Disused Pontoon", ._m5label = "Z03\n\Disused\Pontoon", ._cat=UNMARKED, ._lat = 51.459277, ._long = -0.547087},
+  [83] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
+  [84] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
+  [85] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\n\Old\Slipway", ._cat=JETTY, ._lat = 51.459166, ._long = -0.546999333333333},
 
 /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
