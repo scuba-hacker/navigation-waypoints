@@ -10,13 +10,15 @@ struct trace_point
     double _lo;
 };
 
-#define BUS_TRACE_COUNT 99
-
-class BusTrace
+#define HOLE_TRACE_COUNT 99
+#define ALL_TRACE_COUNT 798
+class WraysburyTraces
 {
   public:
-    static const std::array<trace_point,BUS_TRACE_COUNT> trace;
-    static const uint8_t getBusTraceCount() { return BUS_TRACE_COUNT; }
+    static const std::array<trace_point,HOLE_TRACE_COUNT> hole_trace;
+    static const std::array<trace_point,ALL_TRACE_COUNT> all_trace;
+    static const int getHoleTraceCount() { return HOLE_TRACE_COUNT; }
+    static const int getAllTraceCount() { return ALL_TRACE_COUNT; }
 };
 
 #endif
