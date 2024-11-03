@@ -83,6 +83,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [53] = { ._label = "50bN Swim Through - mid 6m", ._m5label = "50bN\nSwim\nThrough\nmid 6m", ._cat=NO_BUOY, ._lat = 51.4591694, ._long = -0.545999},
   [54] = { ._label = "50cN Swim Through - crates 6m", ._m5label = "50cN\nSwim\nThrough\ncrates\n6m", ._cat=NO_BUOY, ._lat = 51.4592045, ._long = -0.545912625},
   [55] = { ._label = "51B Orca Van 5.5m", ._m5label = "51B\n\nOrca\nVan\n\n5.5m", BLUE_BUOY, ._lat = 51.4591431428571, ._long = -0.545936857142857},
+  
   [56] = { ._label = "X01 Dinghy Boat", ._m5label = "X01\nDinghy\nBoat", ._cat=UNMARKED,._lat = 51.4601285, ._long = -0.5488505},
   [57] = { ._label = "X02 Quarry Machine in Reeds", ._m5label = "X02\nQuarry\nMachine\nReeds", ._cat=UNMARKED, ._lat = 51.460434, ._long = -0.548921},
   [58] = { ._label = "X03 Metal Grated Box", ._m5label = "X03\nMetal\nGrated\nBox", ._cat=UNMARKED, ._lat = 51.4599582857143, ._long = -0.547648571428571},
@@ -106,13 +107,14 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [76] = { ._label = "X21 Memorial Stone - Kit 7.5m", ._m5label = "X21\nMem\nStone\nKit\n7.5m", ._cat=UNMARKED, ._lat = 51.460993, ._long = -0.548006}, // Near die hard taxi
   [77] = { ._label = "X22 Fruit Machine 5.5m", ._m5label = "X22\nFruit\nMach\n5.5m", ._cat=UNMARKED, ._lat = 51.459353, ._long = -0.546939}, // By disused exit + 2 buried boats
   [78] = { ._label = "X23 Lone Crate 7m", ._m5label = "X23\nLone\nCrate\n7m", ._cat=UNMARKED, ._lat = 51.461249, ._long = -0.548688},
-  [79] = { ._label = "X24 ? near plane 6m", ._m5label = "X24?\nnear\nplanen6m", ._cat=UNKNOWN, ._lat = 51.459784, ._long =-0.546550}, // Near Plane
-  [80] = { ._label = "X25 Cotton Reel 3m", ._m5label = "X25\nCotton\nReel\n3m", ._cat=UNMARKED, ._lat = 51.4623163, ._long = -0.5494161 }, // near canoe
-  [81] = { ._label = "X26 Dumpy Cylinder 6m", ._m5label = "X26\nDumpy\nCylinder\n6m",._cat=UNMARKED, ._lat = 51.4600631, ._long = -0.5480722},
+  [79] = { ._label = "X24 Cotton Reel 3m", ._m5label = "X24\nCotton\nReel\n3m", ._cat=UNMARKED, ._lat = 51.4623163, ._long = -0.5494161 }, // near canoe
+  [80] = { ._label = "X25 Dumpy Cylinder 6m", ._m5label = "X25\nDumpy\nCylinder\n6m",._cat=UNMARKED, ._lat = 51.4600631, ._long = -0.5480722},
+  [81] = { ._label = "X26 The Skiff 8m", ._m5label = "X26\nThe\nSkiff\n8m",._cat=UNMARKED, ._lat = 51.4600631, ._long = -0.5480722},
   [82] = { ._label = "X27 Disused Pontoon", ._m5label = "X27\nDisused\nPontoon", ._cat=UNMARKED, ._lat = 51.459277, ._long = -0.547087},
+
   [83] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
   [84] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
-  [85] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.459166, ._long = -0.546999333333333},
+  [85] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.460769, ._long =-0.548650},
 
 /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
