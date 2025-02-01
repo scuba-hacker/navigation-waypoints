@@ -116,6 +116,20 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [84] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
   [85] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.460769, ._long =-0.548650},
 
+  // END WAYPOINTS WRAYSBURY INDEX IS 86 - must update if extra waypoints added
+
+  // START WAYPOINTS HOME INDEX IS 0
+  // END WAYPOINTS HOME INDEX IS 86 - must update if extra waypoints added
+
+  [86] = { ._label = "98N Home Test", ._m5label = "01N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
+  [87] = { ._label = "Z04 Home", ._m5label = "Z01\n\nHome", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
+
+  // START WAYPOINTS VOBSTER INDEX IS 88
+  // END WAYPOINTS VOBSTER INDEX IS 90 - must update if extra waypoints added
+
+  [88] = { ._label = "99N Pontoon", ._m5label = "01N\nPontoon", ._cat=UNMARKED, ._lat = 51.24671667548201, ._long = -2.4247728907604174},
+  [89] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z01\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24597379175095, ._long = -2.4244255715380394},
+
 /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
   [87] = { ._label = "CN2 Canoe N", ._m5label = "CN2\nCanoe N", ._cat=UNMARKED, ._lat = 51.4621644, ._long = -0.5489503},
