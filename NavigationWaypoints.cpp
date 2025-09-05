@@ -134,7 +134,11 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   // END WAYPOINTS VOBSTER INDEX IS 91 - must update if extra waypoints added
 
   [90] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
+  //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.066917, ._long = 1.269453},  
 
+  [91] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
+  1.263733},
   /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
   [87] = { ._label = "CN2 Canoe N", ._m5label = "CN2\nCanoe N", ._cat=UNMARKED, ._lat = 51.4621644, ._long = -0.5489503},
