@@ -42,9 +42,8 @@ class NavigationWaypoint
     }
 };
 
-// including wraysbury, home and vobster
-#define WAYPOINTS_COUNT 90
-
+// including wraysbury, home, vobster and dover
+#define WAYPOINTS_COUNT 91
 class WraysburyWaypoints
 {
   public:
@@ -56,6 +55,8 @@ class WraysburyWaypoints
     static const uint8_t getEndWaypointIndexHome() { return 88;}
     static const uint8_t getStartIndexVobster() { return 88;}
     static const uint8_t getEndWaypointIndexVobster() { return 90;}
+    static const uint8_t getStartIndexOtherAreas() { return 90;}
+    static const uint8_t getEndWaypointIndexOtherAreas() { return 91;}
 };
 
 #endif

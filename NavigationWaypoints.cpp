@@ -130,7 +130,12 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [88] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
   [89] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
 
-/*
+  // START WAYPOINTS DOVER MYSTERY WRECK
+  // END WAYPOINTS VOBSTER INDEX IS 91 - must update if extra waypoints added
+
+  [90] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+
+  /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
   [87] = { ._label = "CN2 Canoe N", ._m5label = "CN2\nCanoe N", ._cat=UNMARKED, ._lat = 51.4621644, ._long = -0.5489503},
   [88] = { ._label = "CN3 Canoe NE", ._m5label = "CN3\nCanoe NE", ._cat=UNMARKED, ._lat = 51.4621235, ._long = -0.5488664},
