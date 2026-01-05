@@ -112,32 +112,41 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [81] = { ._label = "X26 The Skiff 8m", ._m5label = "X26\nThe\nSkiff\n8m",._cat=UNMARKED, ._lat = 51.4607693, ._long = -0.5486501},
   [82] = { ._label = "X27 Disused Pontoon", ._m5label = "X27\nDisused\nPontoon", ._cat=UNMARKED, ._lat = 51.459277, ._long = -0.547087},
 
-  [83] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
-  [84] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
-  [85] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.460769, ._long =-0.548650},
+  // vvvv NEW WAYPOINTS ADDED FROM NEW YEAR'S DAY DIVE 2026
+  [83] = { ._label = "X28 White Hull", ._m5label = "X28\nWhite\nHull", ._cat=UNMARKED, ._lat = 51.460100, ._long = -0.548849},
+  [84] = { ._label = "X29 Seahorse", ._m5label = "X29\nSeahorse", ._cat=UNMARKED, ._lat = 51.460101, ._long = -0.548953},
+  [85] = { ._label = "X30 Polar Bear", ._m5label = "X30\nPolar\nBear", ._cat=UNMARKED, ._lat = 51.460068, ._long = -0.549013}, 
+  [86] = { ._label = "X31 Piano", ._m5label = "X31\nPiano", ._cat=UNMARKED, ._lat = 51.460336, ._long = -0.549035},
+  [87] = { ._label = "X32 Not-A-Skiff", ._m5label = "X32\nNot A\nSkiff", ._cat=UNMARKED, ._lat = 51.460753, ._long = -0.548710},
+  [88] = { ._label = "X33 Reclining Bear", ._m5label = "X33\nRecline\nBear", ._cat=UNMARKED, ._lat = 51.460712, ._long = -0.548656},
+  // ^^^^ NEW WAYPOINTS ADDED FROM NEW YEAR'S DAY DIVE 2026
 
-  // END WAYPOINTS WRAYSBURY INDEX IS 86 - must update if extra waypoints added
+  [89] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
+  [90] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
+  [91] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.460769, ._long =-0.548650},
+
+  // END WAYPOINTS WRAYSBURY INDEX IS 92 - must update if extra waypoints added
 
   // START WAYPOINTS HOME INDEX IS 0
-  // END WAYPOINTS HOME INDEX IS 86 - must update if extra waypoints added
+  // END WAYPOINTS HOME INDEX IS 92 - must update if extra waypoints added
 
-  [86] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
-  [87] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
+  [92] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
+  [93] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
 
-  // START WAYPOINTS VOBSTER INDEX IS 88
-  // END WAYPOINTS VOBSTER INDEX IS 90 - must update if extra waypoints added
+  // START WAYPOINTS VOBSTER INDEX IS 94
+  // END WAYPOINTS VOBSTER INDEX IS 96 - must update if extra waypoints added
 
-  [88] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
-  [89] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
+  [94] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
+  [95] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
 
   // START WAYPOINTS DOVER MYSTERY WRECK
-  // END WAYPOINTS VOBSTER INDEX IS 91 - must update if extra waypoints added
+  // END WAYPOINTS DOVER/OTHER INDEX IS 98 - must update if extra waypoints added
 
-  [90] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  [96] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.066917, ._long = 1.269453},  
 
-  [91] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
+  [97] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
   1.263733},
   /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
