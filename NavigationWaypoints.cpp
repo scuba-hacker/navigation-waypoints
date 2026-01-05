@@ -113,12 +113,12 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [82] = { ._label = "X27 Disused Pontoon", ._m5label = "X27\nDisused\nPontoon", ._cat=UNMARKED, ._lat = 51.459277, ._long = -0.547087},
 
   // vvvv NEW WAYPOINTS ADDED FROM NEW YEAR'S DAY DIVE 2026
-  [83] = { ._label = "X28 White Hull", ._m5label = "X28\nWhite\nHull", ._cat=UNMARKED, ._lat = 51.460100, ._long = -0.548849},
-  [84] = { ._label = "X29 Seahorse", ._m5label = "X29\nSeahorse", ._cat=UNMARKED, ._lat = 51.460101, ._long = -0.548953},
-  [85] = { ._label = "X30 Polar Bear", ._m5label = "X30\nPolar\nBear", ._cat=UNMARKED, ._lat = 51.460068, ._long = -0.549013}, 
-  [86] = { ._label = "X31 Piano", ._m5label = "X31\nPiano", ._cat=UNMARKED, ._lat = 51.460336, ._long = -0.549035},
-  [87] = { ._label = "X32 Not-A-Skiff", ._m5label = "X32\nNot A\nSkiff", ._cat=UNMARKED, ._lat = 51.460753, ._long = -0.548710},
-  [88] = { ._label = "X33 Reclining Bear", ._m5label = "X33\nRecline\nBear", ._cat=UNMARKED, ._lat = 51.460712, ._long = -0.548656},
+  [83] = { ._label = "X28 White Hull 4m", ._m5label = "X28\nWhite\nHull 4m", ._cat=UNMARKED, ._lat = 51.460100, ._long = -0.548849},
+  [84] = { ._label = "X29 Seahorse 3m", ._m5label = "X29\nSeahorse\n3m", ._cat=UNMARKED, ._lat = 51.460101, ._long = -0.548953},
+  [85] = { ._label = "X30 Polar Bear 2m", ._m5label = "X30\nPolar\nBear 2m", ._cat=UNMARKED, ._lat = 51.460068, ._long = -0.549013}, 
+  [86] = { ._label = "X31 Piano 3m", ._m5label = "X31\nPiano 3m", ._cat=UNMARKED, ._lat = 51.460336, ._long = -0.549035},
+  [87] = { ._label = "X32 Not-A-Skiff 8m", ._m5label = "X32\nNot A\nSkiff\n8m", ._cat=UNMARKED, ._lat = 51.460753, ._long = -0.548710},
+  [88] = { ._label = "X33 Reclining Bear 8m", ._m5label = "X33\nRecline\nBear 8m", ._cat=UNMARKED, ._lat = 51.460712, ._long = -0.548656},
   // ^^^^ NEW WAYPOINTS ADDED FROM NEW YEAR'S DAY DIVE 2026
 
   [89] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
