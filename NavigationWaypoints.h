@@ -43,20 +43,20 @@ class NavigationWaypoint
 };
 
 // including wraysbury, home, vobster and dover
-#define WAYPOINTS_COUNT 98
+#define WAYPOINTS_COUNT 102
 class WraysburyWaypoints
 {
   public:
     static const std::array<NavigationWaypoint,WAYPOINTS_COUNT> waypoints;
     static const uint8_t getWaypointsCount() { return WAYPOINTS_COUNT; }
     static const uint8_t getStartIndexWraysbury() { return 0;}
-    static const uint8_t getEndWaypointIndexWraysbury() { return 92;}
-    static const uint8_t getStartIndexHome() { return 92;}
-    static const uint8_t getEndWaypointIndexHome() { return 94;}
-    static const uint8_t getStartIndexVobster() { return 94;}
-    static const uint8_t getEndWaypointIndexVobster() { return 96;}
-    static const uint8_t getStartIndexOtherAreas() { return 96;}
-    static const uint8_t getEndWaypointIndexOtherAreas() { return 98;}
+    static const uint8_t getEndWaypointIndexWraysbury() { return 96;}
+    static const uint8_t getStartIndexHome() { return 96;}
+    static const uint8_t getEndWaypointIndexHome() { return 98;}
+    static const uint8_t getStartIndexVobster() { return 98;}
+    static const uint8_t getEndWaypointIndexVobster() { return 100;}
+    static const uint8_t getStartIndexOtherAreas() { return 100;}
+    static const uint8_t getEndWaypointIndexOtherAreas() { return 102;}
 };
 
 #endif

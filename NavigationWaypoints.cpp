@@ -121,32 +121,43 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [88] = { ._label = "X33 Reclining Bear 8m", ._m5label = "X33\nRecline\nBear 8m", ._cat=UNMARKED, ._lat = 51.460712, ._long = -0.548656},
   // ^^^^ NEW WAYPOINTS ADDED FROM NEW YEAR'S DAY DIVE 2026
 
-  [89] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
-  [90] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
-  [91] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.4591660, ._long = -0.5469993},
+  // new + 4
+  [89] = { ._label = "X34 Better Quarry? 4m", ._m5label = "X34\nBetter\nQuarry?\n4m", ._cat=UNMARKED, ._lat = 51.460410, ._long = -0.548945},
+  [90] = { ._label = "X35 New Boat 8m", ._m5label = "X35\nNew\nBoat\n8m", ._cat=UNMARKED, ._lat = 51.460414, ._long = -0.547535},
+
+  [91] = { ._label = "X36 7m?", ._m5label = "X36 7m?", ._cat=UNMARKED, ._lat = 51.460959, ._long = -0.548016},
+  [92] = { ._label = "X37 4m?", ._m5label = "X37 4m?", ._cat=UNMARKED, ._lat = 51.459570, ._long = -0.547307},
+
+
+// MUST UPDATE INDEXES AND MAX COUNTS IN HEADER FILE and indexes below
+
+
+  [93] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
+  [94] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
+  [95] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.4591660, ._long = -0.5469993},
 
   // END WAYPOINTS WRAYSBURY INDEX IS 92 - must update if extra waypoints added
 
   // START WAYPOINTS HOME INDEX IS 0
   // END WAYPOINTS HOME INDEX IS 92 - must update if extra waypoints added
 
-  [92] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
-  [93] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
+  [96] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
+  [97] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
 
   // START WAYPOINTS VOBSTER INDEX IS 94
   // END WAYPOINTS VOBSTER INDEX IS 96 - must update if extra waypoints added
 
-  [94] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
-  [95] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
+  [98] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
+  [99] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
 
   // START WAYPOINTS DOVER MYSTERY WRECK
   // END WAYPOINTS DOVER/OTHER INDEX IS 98 - must update if extra waypoints added
 
-  [96] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  [100] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.066917, ._long = 1.269453},  
 
-  [97] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
+  [101] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
   1.263733},
   /*
   [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
