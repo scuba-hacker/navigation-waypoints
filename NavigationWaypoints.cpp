@@ -64,7 +64,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [34] = { ._label = "32P 6m", ._m5label = "32P 6m", ._cat=PLATFORM, ._lat = 51.459658, ._long = -0.54725},
   [35] = { ._label = "33N Port Holes Toilet Boat 4.5m", ._m5label = "33N\nPort\nHoles\nToilet\nBoat 4.5m", ._cat=NO_BUOY, ._lat = 51.4595563333333, ._long = -0.547263333333333},
   [36] = { ._label = "34P 6m", ._m5label = "34P 6m", ._cat=PLATFORM, ._lat = 51.460312, ._long = -0.547165},
-  [37] = { ._label = "35N Dragon Boat 7.5m", ._m5label = "35N\n\nDragon\nBoat\n\n7.5m", ._cat=NO_BUOY, ._lat = 51.4599636666667, ._long = -0.547154333333333},
+  [37] = { ._label = "35N Dragon Boat GONE 7.5m", ._m5label = "35N\n\nDragon\nBoat\nGONE 7.5m", ._cat=NO_BUOY, ._lat = 51.4599636666667, ._long = -0.547154333333333},
   [38] = { ._label = "36P 6m", ._m5label = "36P 6m", ._cat=PLATFORM, ._lat = 51.459555, ._long = -0.54708},
   [39] = { ._label = "37N Dive Bell 4m", ._m5label = "37N\n\nDive\nBell\n\n4m", ._cat=NO_BUOY, ._lat = 51.4594757058824, ._long = -0.547087117647059},
   [40] = { ._label = "38B Lifeboat 6.5m", ._m5label = "38B\n\nLife\nBoat\n\n6.5m", BLUE_BUOY, ._lat = 51.459839375, ._long = -0.5469307},
