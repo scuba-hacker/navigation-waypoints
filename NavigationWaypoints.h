@@ -49,6 +49,8 @@ class WraysburyWaypoints
   public:
     static const std::array<NavigationWaypoint,WAYPOINTS_COUNT> waypoints;
     static const uint8_t getWaypointsCount() { return WAYPOINTS_COUNT; }
+    static const uint8_t getStartIndexWraysbury() { return 0;}
+    static const uint8_t getEndWaypointIndexWraysbury() { return 95;}
 };
 
 #endif
