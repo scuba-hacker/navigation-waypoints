@@ -62,7 +62,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [32] = { ._label = "30B White Day boat by platform 6m", ._m5label = "30B\nWhite\nDay\nboat by\nplatform\n6m", BLUE_BUOY, ._lat = 51.4598131428572, ._long = -0.547380285714286},
   [33] = { ._label = "31P 6m", ._m5label = "31P 6m", ._cat=PLATFORM, ._lat = 51.459766, ._long = -0.547347},
   [34] = { ._label = "32P 6m", ._m5label = "32P 6m", ._cat=PLATFORM, ._lat = 51.459658, ._long = -0.54725},
-  [35] = { ._label = "33N Port Holes Boat 4.5m", ._m5label = "33N\nPort\nHoles\nBoat 4.5m", ._cat=NO_BUOY, ._lat = 51.4595563333333, ._long = -0.547263333333333},
+  [35] = { ._label = "33N Port Holes Toilet Boat 4.5m", ._m5label = "33N\nPort\nHoles\nToilet\nBoat 4.5m", ._cat=NO_BUOY, ._lat = 51.4595563333333, ._long = -0.547263333333333},
   [36] = { ._label = "34P 6m", ._m5label = "34P 6m", ._cat=PLATFORM, ._lat = 51.460312, ._long = -0.547165},
   [37] = { ._label = "35N Dragon Boat 7.5m", ._m5label = "35N\n\nDragon\nBoat\n\n7.5m", ._cat=NO_BUOY, ._lat = 51.4599636666667, ._long = -0.547154333333333},
   [38] = { ._label = "36P 6m", ._m5label = "36P 6m", ._cat=PLATFORM, ._lat = 51.459555, ._long = -0.54708},
@@ -126,57 +126,37 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [90] = { ._label = "X35 New Boat 8m", ._m5label = "X35\nNew\nBoat\n8m", ._cat=UNMARKED, ._lat = 51.460414, ._long = -0.547535},
 
   [91] = { ._label = "X36 7m?", ._m5label = "X36 7m?", ._cat=UNMARKED, ._lat = 51.460959, ._long = -0.548016},
-  [92] = { ._label = "X37 4m?", ._m5label = "X37 4m?", ._cat=UNMARKED, ._lat = 51.459570, ._long = -0.547307},
 
 
 // MUST UPDATE INDEXES AND MAX COUNTS IN HEADER FILE and indexes below
 
 
-  [93] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
-  [94] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
-  [95] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.4591660, ._long = -0.5469993},
+  [92] = { ._label = "Z01 Cafe Jetty", ._m5label = "Z01\n\nCafe\nJetty", ._cat=JETTY, ._lat = 51.460015, ._long = -0.548316},
+  [93] = { ._label = "Z02 Mid Jetty", ._m5label = "Z02\n\nMid\nJetty", ._cat=JETTY, ._lat = 51.459547, ._long = -0.547461},
+  [94] = { ._label = "Z03 Old Slipway", ._m5label = "Z03\nOld\nSlipway", ._cat=JETTY, ._lat = 51.4591660, ._long = -0.5469993},
 
   // END WAYPOINTS WRAYSBURY INDEX IS 92 - must update if extra waypoints added
 
   // START WAYPOINTS HOME INDEX IS 0
   // END WAYPOINTS HOME INDEX IS 92 - must update if extra waypoints added
 
-  [96] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
-  [97] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
+  [95] = { ._label = "98N Home Test", ._m5label = "98N\n\nHome\nTest", ._cat=UNMARKED, ._lat = 51.39140569365721, ._long = -0.2869881590541109},
+  [96] = { ._label = "Z04 Manor", ._m5label = "Z04\n\nManor", ._cat=JETTY, ._lat = 51.391513052111996, ._long = -0.2874361808098317},
 
   // START WAYPOINTS VOBSTER INDEX IS 94
   // END WAYPOINTS VOBSTER INDEX IS 96 - must update if extra waypoints added
 
-  [98] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
-  [99] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
+  [97] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
+  [98] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
 
   // START WAYPOINTS DOVER MYSTERY WRECK
   // END WAYPOINTS DOVER/OTHER INDEX IS 98 - must update if extra waypoints added
 
-  [100] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  [99] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.066917, ._long = 1.269453},  
 
-  [101] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
+  [100] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
   1.263733},
-  /*
-  [86] = { ._label = "CN1 Canoe NW", ._m5label = "CN1\nCanoe NW", ._cat=UNMARKED, ._lat = 51.4621272, ._long = -0.5490348},
-  [87] = { ._label = "CN2 Canoe N", ._m5label = "CN2\nCanoe N", ._cat=UNMARKED, ._lat = 51.4621644, ._long = -0.5489503},
-  [88] = { ._label = "CN3 Canoe NE", ._m5label = "CN3\nCanoe NE", ._cat=UNMARKED, ._lat = 51.4621235, ._long = -0.5488664},
-  [89] = { ._label = "CN4 Canoe E", ._m5label = "CN4\nCanoe E", ._cat=UNMARKED, ._lat = 51.4620654, ._long = -0.5488102},
-  [90] = { ._label = "CN5 Canoe SE", ._m5label = "CN5\nCanoe SE", ._cat=UNMARKED, ._lat = 51.4620027, ._long = -0.5488524},
-  [91] = { ._label = "CN6 Canoe S", ._m5label = "CN6\nCanoe S", ._cat=UNMARKED, ._lat = 51.4619701, ._long = -0.5489477},
-  [92] = { ._label = "CN7 Canoe SW", ._m5label = "CN7\nCanoe SW", ._cat=UNMARKED, ._lat = 51.4619939, ._long = -0.5490341},
-  [93] = { ._label = "CN8 Canoe W", ._m5label = "CN8\nCanoe W", ._cat=UNMARKED, ._lat = 51.4620666, ._long = -0.5490951},
-
-  [94] = { ._label = "SS1 Sub W", ._m5label = "SS1\nSub W", ._cat=UNMARKED, ._lat = 51.4609559, ._long = -0.5492975},
-  [95] = { ._label = "SS2 Sub NW", ._m5label = "SS2\nSub NW", ._cat=UNMARKED, ._lat =  51.461031, ._long = -0.5492317},
-  [96] = { ._label = "SS3 Sub N", ._m5label = "SS3\nSub N", ._cat=UNMARKED, ._lat = 51.4610407, ._long = -0.5491586},
-  [97] = { ._label = "SS4 Sub NE", ._m5label = "SS4\nSub NE", ._cat=UNMARKED, ._lat = 51.4610231, ._long = -0.5490675},
-  [98] = { ._label = "SS5 Sub E", ._m5label = "SS5\nSub E", ._cat=UNMARKED, ._lat = 51.4609554, ._long = -0.5490171},
-  [99] = { ._label = "SS6 Sub SE", ._m5label = "SS6\nSub SE", ._cat=UNMARKED, ._lat =  51.460884, ._long = -0.5490634},
-  [100] = { ._label = "SS7 Sub S", ._m5label = "SS7\nSub S", ._cat=UNMARKED, ._lat = 51.4608669, ._long = -0.5491586},
-  [101] = { ._label = "SS8 Sub SW", ._m5label = "SS8\nSub SW", ._cat=UNMARKED, ._lat = 51.4608861, ._long = -0.5492377},
-*/
 }};
 
