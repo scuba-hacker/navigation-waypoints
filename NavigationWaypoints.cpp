@@ -89,7 +89,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [58] = { ._label = "X03 Metal Grated Box", ._m5label = "X03\nMetal\nGrated\nBox", ._cat=UNMARKED, ._lat = 51.4599582857143, ._long = -0.547648571428571},
   [59] = { ._label = "X04 4 crates in a line", ._m5label = "X04\n4 x\nCrates\nLine", ._cat=UNMARKED, ._lat = 51.4599018571429, ._long = -0.547141285714286},
   [60] = { ._label = "X05 Lone crate", ._m5label = "X05\nLone\nCrate", ._cat=UNMARKED, ._lat = 51.4598467777778, ._long = -0.547212666666667},
-  [61] = { ._label = "X06 Collapsed Metal", ._m5label = "X06\nCollapsed Metal", ._cat=UNMARKED, ._lat = 51.45967075, ._long = -0.547253125},
+  [61] = { ._label = "X06 Collapsed Metal", ._m5label = "X06\nCollapsed\nMetal", ._cat=UNMARKED, ._lat = 51.45967075, ._long = -0.547253125},
   [62] = { ._label = "X07 Boat with Chain Links", ._m5label = "X07\nChain\nLink\nBoat", ._cat=UNMARKED, ._lat = 51.4600385714286, ._long = -0.548724142857143},
   [63] = { ._label = "X08 Pot in a box", ._m5label = "X08\nPot In\nA Box", ._cat=UNMARKED, ._lat = 51.459940625, ._long = -0.54852025}, // by confined area
   [64] = { ._label = "X09 Seahorse Mid-Water", ._m5label = "X09\nSeahorse Midwater", ._cat=UNMARKED, ._lat = 51.4600703333333, ._long = -0.548645666666667},
