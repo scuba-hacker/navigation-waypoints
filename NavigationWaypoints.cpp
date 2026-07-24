@@ -149,14 +149,20 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   [97] = { ._label = "99N Vobster Pontoon", ._m5label = "99N\nVobster\nPontoon", ._cat=UNMARKED, ._lat = 51.24675171648518, ._long = -2.4247895195130016},
   [98] = { ._label = "Z05 Vobster Jetty", ._m5label = "Z05\nVobster\nJetty", ._cat=JETTY, ._lat = 51.24595792148103, ._long = -2.4243989112953925},
 
+
+  // START WAYPOINTS TAPWOOD INDEX IS 97
+  // END WAYPOINTS VOBSTER INDEX IS 96 - must update if extra waypoints added
+
+  [99] = { ._label = "Z06 Tapwood Jetty", ._m5label = "Z06\nTapwood\nJetty", ._cat=JETTY, ._lat = 51.2433888889, ._long = -0.2349166667},
+
   // START WAYPOINTS DOVER MYSTERY WRECK
   // END WAYPOINTS DOVER/OTHER INDEX IS 98 - must update if extra waypoints added
 
-  [99] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  [100] = { ._label = "Z06 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
   //[91] = { ._label = "Z07 test", ._m5label = "Z07\ntest", ._cat=BLUE_BUOY, ._lat = 51.066917, ._long = 1.269453},  
 
-  [100] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
+  [101] = { ._label = "Z07 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long =
   1.263733},
 }};
 
