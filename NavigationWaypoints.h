@@ -43,7 +43,7 @@ class NavigationWaypoint
 };
 
 // including wraysbury, home, vobster and dover
-#define WAYPOINTS_COUNT 102
+#define WAYPOINTS_COUNT 111
 class WraysburyWaypoints
 {
   public:
