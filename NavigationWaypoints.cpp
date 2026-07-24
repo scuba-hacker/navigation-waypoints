@@ -158,7 +158,7 @@ const std::array<NavigationWaypoint,WAYPOINTS_COUNT> WraysburyWaypoints::waypoin
   // START WAYPOINTS DOVER MYSTERY WRECK
   // END WAYPOINTS DOVER/OTHER INDEX IS 98 - must update if extra waypoints added
 
-  [100] = { ._label = "Z98 Wreck Zone", ._m5label = "Z06\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
-  [101] = { ._label = "Z99 waypoint", ._m5label = "Z07\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
+  [100] = { ._label = "Z98 Wreck Zone", ._m5label = "Z98\nWreck\nZone", ._cat=JETTY, ._lat = 51.066017, ._long = 1.270883},
+  [101] = { ._label = "Z99 waypoint", ._m5label = "Z99\nwaypoint", ._cat=BLUE_BUOY, ._lat = 51.070507, ._long = 1.263733},
 }};
 
